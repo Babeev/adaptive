@@ -1,0 +1,36 @@
+@import url('__contain/cover__contain.css');
+@import url('__link/cover__link.css');
+@import url('__description/cover__description.css');
+.cover {
+    background-image: url(../../images/cover/baikal.png);
+    background-size: cover;
+    margin: 0 auto 160px auto;
+    text-align: center;
+    max-width: 1184px;
+    height: 594px;
+}
+@media screen and (max-width:1024px) {
+    .cover {
+        height: 562px;
+    }
+}
+@media screen and (max-width:929px) {
+    .cover {
+        margin: 0 auto 102px auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .cover {
+        height: 500px;
+    }
+}
+@media screen and (max-width:500px) {
+    .cover {
+        height: 272px;
+    }
+}
+@media screen and (max-width:320px) {
+    .cover {
+        height: 216px;
+    }
+}

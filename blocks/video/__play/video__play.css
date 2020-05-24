@@ -1,0 +1,8 @@
+.video__play {
+    margin: 30px auto auto 30px;
+}
+@media screen and (max-width:768px) {
+    .video__play {
+      margin: 24px auto auto 24px;
+    }
+}

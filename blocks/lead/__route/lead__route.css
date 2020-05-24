@@ -1,0 +1,20 @@
+.lead__route{
+    margin: 68px auto 0 auto;
+}
+@media screen and (max-width: 1024px) {
+    .lead__route {
+        width: 928px;
+        height: 554px;
+    }
+}
+@media screen and (max-width: 928px) {
+    .lead__route {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 376px) {
+    .lead__route{
+        margin: 40px auto 0 auto;
+    }
+}

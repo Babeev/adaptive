@@ -1,0 +1,8 @@
+.place__texts {
+    margin: 14px 0 0 0;
+}
+@media screen and (max-width:630px) {
+    .place__texts{
+      margin: 0;    
+    }
+}
