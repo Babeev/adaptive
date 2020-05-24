@@ -1,0 +1,25 @@
+@import url('__route/lead__route.css');
+@import url('__title-lead/content__title-lead.css');
+@import url('__subtitle-lead/content__subtitle-lead.css');
+.lead{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto 0 auto;
+}
+@media screen and (max-width: 1440px) {
+    .lead {
+        width: 984px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .lead {
+        width: 928px;
+    }
+}
+@media screen and (max-width: 928px) {
+    .lead {
+        max-width: 100%;
+    }
+}
+

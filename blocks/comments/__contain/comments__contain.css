@@ -1,0 +1,9 @@
+.comments__contain {
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:928px) {
+    .comments__contain {
+        flex-direction: column;
+    }
+}

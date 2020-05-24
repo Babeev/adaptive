@@ -1,0 +1,8 @@
+.video__item-observatory {
+    background-image: url(../../../images/video/observatory.png);
+}
+.video__item-observatory:hover {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../../images/video/observatory.png);;
+    background-size: cover;
+}
+  

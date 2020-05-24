@@ -1,0 +1,15 @@
+.comments__author {
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+@media screen and (max-width:928px) {
+    .comments__author {
+        order: 1;
+        margin: 16px auto auto auto;
+        text-align: center;
+    }
+}

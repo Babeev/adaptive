@@ -1,0 +1,34 @@
+.photo-grid__cell {
+    margin: 0;
+}
+@media screen and (max-width: 1184px) {
+    .photo-grid__cell {
+        width: 300px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 932px) {
+    .photo-grid__cell {
+        width: 352px;
+        height: 234px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .photo-grid__cell {
+        width: 352px;
+        height: 232px;
+    }
+}
+@media screen and (max-width: 376px) {
+    .photo-grid__cell {
+        width: 343px;
+        height: 232px;
+    }
+}
+@media screen and (max-width: 343px) {
+    .photo-grid__cell {
+        width: 288px;
+        height: 192px;
+        justify-self: center;
+    }
+}

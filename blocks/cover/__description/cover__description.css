@@ -1,0 +1,23 @@
+.cover__description {
+    margin: 0 auto 48px auto;
+    width: 382px;
+    height: 69px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+@media screen and (max-width:768px) {
+    .cover__description {
+        margin: 0 auto 40px auto;
+    }
+}
+@media screen and (max-width:500px) {
+    .cover__description {
+        font-size: 14px;
+        line-height: 17px;
+        margin: 0 auto 24px auto;
+        max-width: 288px;
+    }
+}
